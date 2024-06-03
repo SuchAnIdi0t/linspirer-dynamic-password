@@ -123,7 +123,6 @@ func main() {
 			return
 		}
 		account = strings.ToLower(account)
-		swdid = strings.ToLower(swdid)
 		log.Printf("Result: %s", calc(swdid, getStuID(swdid, account))[:6])
 	}
 }
